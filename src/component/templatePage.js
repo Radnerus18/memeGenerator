@@ -67,7 +67,7 @@ export default function TemplatePage() {
     const selectedImage = imageMap[absSelect];
     return (
         <React.Fragment>
-            <div className='templateWrap d-flex flex-row'>
+            <div className='templateWrap d-flex flex-row flex-wrap'>
                 <div className='templateView my-5 m-2' ref={elementToCapture}>
                     <h2 className='blogTitle'><img src={logo} className='imhLogo' /> Indian Metal Horse</h2>
                     {/* <img className='bgThumb' src={bgText} /> */}
