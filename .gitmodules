@@ -1,4 +1,3 @@
-[submodule "memeGenerator"]
-    path = memeGenerator
-    url = https://github.com/Radnerus18/memeGenerator.git
+[submodule "imh"]
+    path = imh
     url = https://github.com/Radnerus18/imh.git
