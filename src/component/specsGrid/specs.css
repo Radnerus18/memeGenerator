@@ -1,0 +1,36 @@
+.specsWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 5px;
+}
+
+.specsWrap>div>div {
+    width: 200px;
+    border: 2px solid #000;
+    border-radius: 25px 1px 25px 1px;
+    margin-top: 20px;
+    resize: horizontal;
+    overflow: auto;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    text-align: left;
+    padding: 0px 15px;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(49, 1, 1, 0.9) 30%, rgb(241, 0, 0) 100%);
+    color: #fff;
+}
+
+.introSpecs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.comfortableSpec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}

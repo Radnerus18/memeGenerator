@@ -1,0 +1,17 @@
+.editBox {
+    position: relative;
+    margin-top: 10px;
+    gap: 10px;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.editBox>input {
+    width: 200px;
+}
+
+.absCounterBox {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
